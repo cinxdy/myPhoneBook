@@ -15,6 +15,14 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+public slots:
+    void slotInsertBtnClicked(void);
+    void slotClearBtnClicked(void);
+
+//private slots:
+//    void on_pbInputBtn_clicked();
+//    void on_pbClearBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
