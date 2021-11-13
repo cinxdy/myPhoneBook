@@ -19,6 +19,9 @@ public slots:
     void slotInsertBtnClicked(void);
     void slotClearBtnClicked(void);
 
+    void slotSaveBtnClicked(void);
+    void slotDeleteBtnClicked(void);
+
 //private slots:
 //    void on_pbInputBtn_clicked();
 //    void on_pbClearBtn_clicked();
